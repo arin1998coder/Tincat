@@ -1,0 +1,230 @@
+body{
+  font-family: 'Montserrat',sans-serif;
+  text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Montserrat',sans-serif;
+  font-weight: bold;
+}
+
+/* Sections */
+
+.colored-section{
+  background-color: #A760FF;
+  color: #fff;
+}
+
+.white-section{
+  background-color: white;
+}
+
+#title {
+  height:700px;
+  text-align: left;
+}
+
+.container-fluid {
+  padding: 3% 18%;
+}
+
+/* navigation panel */
+.navbar{
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+  font-family: 'Ubuntu',sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding: 0 20px;
+}
+
+.nav-link{
+  font-family: "Montserrat-Light",sans-serif;
+  font-size: 1.3rem;
+}
+
+.big-heading{
+  font-family: 'Montserrat-Black', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+/* title-phone */
+
+.title_phone{
+  width: 60%;
+  -webkit-transform: rotate(25deg);
+  -moz-transform: rotate(25deg);
+  -ms-transform: rotate(25deg);
+  -o-transform: rotate(25deg);
+  transform: rotate(25deg);
+  position: relative;
+  left:10%;
+}
+
+/* Features section */
+
+/* Features Fontawesome icons */
+#features{
+  position: relative;
+}
+
+.feature-text{
+  font-size: 1.3rem;
+}
+
+.icon{
+  color: #A760FF;
+  margin-bottom: 1rem;
+}
+
+.icon:hover{
+  color: #FF5D5D;
+}
+
+
+.feauture-design{
+  padding: 5%;
+}
+
+/* feautes section giving a bit of padding top */
+
+.featuretincat{
+  padding-top:120px;
+  padding-bottom:120px;
+}
+
+
+
+/* Testimonials section */
+
+#testimonials{
+  background-color: #764AF1;
+}
+
+.testimonial-text{
+  font-size: 2.8rem;
+  line-height: 1.5;
+}
+
+.carousel-item{
+  padding: 7% 20%;
+}
+
+/* carousel-prev-next-indicators-arrows */
+.carousel-control-prev,
+.carousel-control-next{
+  opacity: 1;
+}
+
+
+
+.testimonial-img{
+
+  width:12%;
+  border-radius: 100%;
+  margin: 18px;
+}
+
+/*
+Press section */
+
+#press{
+  padding-bottom: 5%;
+  background-color: #764AF1;
+}
+
+.press-logo{
+  width:12%;
+  margin: 30px;
+}
+
+/*Pricing Section */
+
+#pricing{
+  padding: 100px;
+}
+
+.pricing-heading{
+  font-size: 2.8rem;
+  line-height: 1.5;
+}
+
+.pricing-plans-text{
+  font-size: 2.8rem;
+  line-height: 1.5;
+}
+
+.price-card-name{
+  font-size: 1.3rem;
+}
+/* padding for Pricing column */
+
+.Prcing-column{
+  padding: 3% 2%;
+}
+
+/* cta section */
+
+#cta{
+  padding: 6% 20%;
+
+}
+
+/* cta-attributes */
+
+.cta-buttons
+{
+  padding-top: 6%;
+}
+.button-apple{
+  margin-right: 20px;
+}
+.button-gplay{
+  margin-left:20px;
+}
+/* Footer section */
+
+#footer{
+  padding: 5% 20%;
+}
+
+.footer-icons{
+  padding: 2% 1%;
+}
+
+.footer-links{
+  color: inherit;
+}
+
+.footer-para{
+  font-family: 'Montserrat',sans-serif;
+  font-weight: Light;
+  font-size: 1rem;
+}
+
+/* if width <= 1188 px do the below changes to the respective attributes */
+
+@media (max-width: 1188px)  {
+
+  .title_phone{
+    position: static;
+    padding-top: 10%;
+    padding-bottom: 5%;
+    transform:rotate(0);
+  }
+  .col-lg-6{
+    width: 100%;
+  }
+
+  #title{
+    height: auto;
+    text-align: center;
+  }
+}
